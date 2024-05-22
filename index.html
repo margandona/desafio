@@ -151,8 +151,12 @@
             }
 
             const miHospital = new Hospital("Hospital Central");
-            miHospital.agregarPaciente(new Paciente("Juan Pérez", "123456789", 30, "Ninguna"));
+            miHospital.agregarPaciente(new Paciente("Juan Pérez", "123456789", 30, "Dolor Abdominal"));
             miHospital.agregarPaciente(new Paciente("Ana María", "987654321", 25, "Alergia a la penicilina"));
+            miHospital.agregarPaciente(new Paciente("Marcos Argandoña", "111111111", 35, "Fiebre"));
+            miHospital.agregarPaciente(new Paciente("Jesus Cornejo", "222222222", 29, "Influenza"));
+            miHospital.agregarPaciente(new Paciente("Valentina Iturrieta", "333333333", 64, "COVID"));
+            miHospital.agregarPaciente(new Paciente("Elena Roma", "444444444", 48, "Dolor Lumbar"));
 
             function agregarPaciente(nombre, rut, edad, historiaMedica) {
                 const nuevoPaciente = new Paciente(nombre, rut, edad, historiaMedica);
